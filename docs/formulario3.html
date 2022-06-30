@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario3</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <main>
+        <section class="form-register">
+            <form action="">
+                <table>
+                    <caption style="background:lime ;">Registro de Trabajadores</caption>
+                    <tr>
+                        <td>
+                            <label for="">Rut:</label>
+                        </td>
+                        <td>
+                            <input type="text" placeholder="Sin puntos ni guion" name="rut" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Nombre:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="nombre" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Apellido paterno:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="Apellido Paterno" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Apellido Materno:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="Apellido Materno" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="">sexo:</label></td>
+                        <td>
+                            <input type="radio" name="H" value="Sexo">Hombre
+                            <input type="radio" name="M" value="Sexo">Mujer
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Nivel de estudio</label>
+                        </td>
+
+                        <td>
+                            <input type="checkbox" name="no tiene">No tiene<br />
+                            <input type="checkbox" name="Tecnico">Tecnico<br />
+                            <input type="checkbox" name="Universitario">Universitario
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Ciudad de nacimiento:</label>
+                        </td>
+                        <td>
+                            <select name="Ciudad" id="">
+                                <option value="">Zacatecoluca</option>
+                                <option value="Santiago">Santiago Nonualco</option>
+                                <option value="San Juan">San Juan</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Curriculum:</label>
+
+                        </td>
+                        <td>
+                            <input type="file" value="pdf" name="Curriculum">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Foto:</label>
+                        </td>
+                        <td>
+                            <input type="file" value="img" name=Foto">
+                        </td>
+                    </tr>
+                    <tr style="background: lime; text-align: center;">
+                        <td colspan="2"> <button type="submit">Registrar trabajador</button></td>
+                    </tr>
+                </table>
+
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>

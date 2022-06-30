@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario 5</title>
+    <link rel="stylesheet" href="f5.css">
+</head>
+
+<body>
+    <main>
+        <section>
+            <form action="">
+
+                <table style="background: beige ;">
+                    <caption style="background: white ; text-align: center;">Registro de Usuario</caption>
+                    <tbody>
+                        <tr>
+                            <td rowspan="4" width="30%"><img src="silueta.jpg" alt="" width="70%"></td>
+                            <td><label for="">Codigo de Usuario:</label></td>
+                            <td><input type="text" required placeholder="Ingrese su codig..."></td>
+                        </tr>
+                        <tr>
+                            <td><label for="">Nivel de Usuario</label></td>
+                            <td>
+                                <input type="radio" name="admid" id="">administrador<br />
+                                <input type="radio" name="Usuario" id="">Usuario
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td><label for="">Contraseña:</label></td>
+                            <td>
+                                <input type="password" required placeholder="Ingrese su contraseña...">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="">Confirmar Contraseña:</label></td>
+                            <td><input type="password" required placeholder="confirmar"></td>
+                        </tr>
+                    </tbody>
+                    <tr>
+                        <td><label for="">Nombres:</label></td>
+                        <td colspan="3"><input type="text" required size="70" placeholder="Ingrese su nombre.."></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Apellidos:</label></td>
+                        <td colspan="3"><input type="text" required size="70" placeholder="Ingrese sus apellidos...">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Tipo de documento</label>
+                        </td>
+                        <td>
+                            <select name="documento" id="">
+                                <option value="">DUI</option>
+                                <option value="Nit">Nit</option>
+
+                            </select>
+                        <td>
+                            <label for="">Nª de documento</label>
+                        </td>
+                        <td>
+                            <input type="text" required placeholder="Dui o Nit...">
+                        </td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Sexo:</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="H" value="Sexo">Hombre
+                            <input type="radio" name="M" value="Sexo">Mujer
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Telefono:</label>
+                        </td>
+                        <td>
+                            <input type="tel" required placeholder="Telefono...">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Email:</label></td>
+                        <td>
+                            <input type="email" name="email" id="" size="" required placeholder="Correo fijo...">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><button type="submit">Registar</button></td>
+                        <td><button type="reset">Limpiar</button></td>
+                        <td><button type="button">Salir</button></td>
+                    </tr>
+                </table>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
